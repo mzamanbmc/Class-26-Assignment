@@ -1,0 +1,110 @@
+.our-clients{}
+.our-clients .left-txt{}
+.left-txt span{
+    font-size: 22px;
+    color: #3763EB;
+    text-transform: uppercase;
+}
+.left-txt h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.left-txt h1::after{
+    content: "";
+    position: absolute;
+    width: 12%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: #3763EB;
+}
+.left-txt p{
+    color: grey;
+    font-size: 16px;
+}
+.our-clients .client-logo .s-client{
+    border: 1px solid rgba(221, 221, 221, 0.548);
+    padding: 30px;
+    border-collapse: collapse;
+    transition: 0.4s;
+}
+.our-clients .client-logo .s-client img{
+    max-width: 100%;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.our-clients .client-logo .s-client:hover{
+    background: #F6F9FC;
+    opacity: 1;
+}
+.our-clients .client-logo .s-client:hover img{
+    opacity: 1;
+}
+.news-section{}
+.news-section h1{
+    position: relative;
+}
+.news-section h1::after{
+    content: "";
+    position: absolute;
+    left: 43%;
+}
+.blog-section .card{
+    
+}
+.card-img{
+    position: relative;
+}
+.card-button {
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+}
+.card-button a {
+    width: 180px;
+    padding: 0px;
+}
+.card-button a img{
+    width: 40px;
+}
+
+
+footer{
+    padding-top: 80px;
+    background: #081828;
+    padding-bottom: 08px;
+
+}
+footer img{
+    padding-bottom: 30px;
+}
+footer p{}
+.social-menu{
+    margin-left: -30px;
+    padding-top: 10px;
+}
+.social-menu li{
+    padding: 0 15px;
+}
+footer h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 30px;
+    border-left: 3px solid #3763EB;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 5px 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
